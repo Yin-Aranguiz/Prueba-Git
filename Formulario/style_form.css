@@ -1,0 +1,115 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/5f/90/1c/5f901c883358fce2c226d08a0586e718.jpg);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family:Arial;
+    margin: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    font-weight: bold;
+
+}
+
+.body{
+    background-color: rgba(255, 255, 255, 0.604);
+    box-shadow: 0 0 0 2px #f0f0f0;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    
+}
+.h1{
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+    padding: 2px;
+    font-size: 25px;
+    box-shadow: 0 0 0 2.1px #f0f0f0;
+    border-radius: 10px;
+}
+
+.bloque1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bloque2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.bloque2-1{
+    display: flex;
+    flex-direction: column ;
+}
+
+.bloque2-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque2-2-1{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+.bloque2-2-2{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.bloquex{
+    display: flex;
+}
+
+.tarjeta{
+    display: flex;
+}
+
+.send{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"], input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus  {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+select {
+    padding: 8px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Color de fondo */
+    color: #333; 
+}
+
+textarea {
+    padding: 8px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Color de fondo */
+    color: #333; 
+}

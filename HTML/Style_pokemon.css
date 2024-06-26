@@ -1,0 +1,83 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/3551101.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    margin: 0%;
+}
+.logo img{
+    height: 90px;
+    align-items: center;
+}
+
+header{
+    background: white;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+.poke {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#fairy {
+    background-color: rgb(255, 0, 140, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#poison {
+    background-color: rgb(125, 0, 242, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#psychic {
+    background-color: rgb(200, 121, 250, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#electric {
+    background-color: rgb(255, 255, 0, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#ice {
+    background-color: rgb(5, 188, 255, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#ghost {
+    background-color: rgba(218, 218, 218, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#grass {
+    background-color: rgb(124, 228, 54, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#bug {
+    background-color: rgb(130, 124, 16, 0.8);
+    margin: 20px;
+    border-radius: 20px;
+}
+

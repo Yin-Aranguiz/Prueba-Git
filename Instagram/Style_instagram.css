@@ -1,0 +1,103 @@
+
+
+header{
+    background: rgb(255, 255, 255);
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header > p{
+    color: rgb(227, 40, 196);
+
+    display: flex;
+    justify-content: center; 
+    font-size: 50px;
+    margin: 20px;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all-blocks{
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    /* text-align: center; pone el texto en el centro */
+
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.babys{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom:10px;
+}
+.babys > img{
+    width: 300px;
+}
+.bajada{
+    margin-left: 15px;
+
+}
+#conga{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom:10px;
+}
+#conga > img{
+    width: 300px;
+
+}
+#benji{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom:10px;
+}
+#benji > img{
+    width: 300px;
+}
+#choclo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom:10px;
+}
+#choclo > img{
+    width: 300px;
+}
+.interacciones{
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+    align-items: flex-start;
+    margin-left: 10px; 
+    
+}
+.interacciones > img{
+    width: 30px;
+    height: 30px;
+}
+#guardar{
+    margin-left: 160px;
+}
+#insta{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+#tres-puntos{
+    margin-left: 210px;
+    height: 15px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style_form.css" />
+  </head>
+  <body>
+    <div>
+    <div class="h1">Pago</div>
+    <div class="body">
+      <div class="bloque1">
+        <div class="number">
+          Números de tarjeta
+          <input type="text" name="Number"  maxlength="16" pattern="\d{1,9}"inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 16);" required placeholder="XXXX XXXX XXXX XXXX"/>
+        </div>
+        <div class="number">
+        CVC
+        <input type="text" name="Code" maxlength="3" pattern="\d{1,9}"inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 3);" placeholder="XXX" size="3"/>
+    </div>
+    <div class="number">
+        Cantidad
+        <input type="number" name="Amount" placeholder="$0"/>
+    </div>
+    </div>
+      <div class="bloque2">
+        <div class="bloque2-1">
+          Nombre
+          <input class="nombre"  type="text" name="Name" maxlength="5" placeholder="Juanito"/>
+          País
+          <input type="text" name="Region" />
+          <div class="tarjeta">
+            Tarjeta
+            <input type="radio" name="color" value="blue" />
+            <input type="radio" name="color" value="red" />
+            <input type="radio" name="color" value="pink" />
+          </div>
+        </div>
+        <div class="bloque2-2">
+          Apellido
+          <input type="text" name="Name" placeholder="Perez" size="10" />
+          <div class="bloquex">
+            <div class="bloque2-2-1">
+            Region
+            <select name="color">
+              <option value="">Arica y parinacota</option>
+              <option value="yellow">Tarapacá</option>
+              <option value="yellow">Atacama</option>
+              <option value="yellow">Coquimbo</option>
+              <option value="yellow">Valparaíso</option>
+              <option value="yellow">Metropolitana</option>
+            </select>
+        </div>
+        <div class="bloque2-2-2">    
+        Codigo postal
+            <input type="text" name="Postal" size="5" />
+          </div>
+        </div>
+          Mensaje
+          <textarea
+            name="comments"
+            placeholder="Escriba sus comentarios aquí..."
+          ></textarea>
+        </div>
+      </div>
+      <div class="send">
+        <input type="submit" value="Send Form" />
+      </div>
+    </div>
+</div>
+  </body>
+</html>
